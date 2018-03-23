@@ -1,0 +1,85 @@
+#main {
+    margin: 100px 18%;
+    width: 100%;
+    /* height: 500px; */
+    border: 1px solid black;
+    text-align: left;
+    font-size: 14px;
+    color: #555;
+}
+
+.item {
+    margin-top: 20px;
+    /* border: 1px solid purple; */
+}
+
+#main span {
+    /* border:1px solid green; */
+}
+
+#main .caption {
+    display: inline-block;
+    width: 110px;
+    height: 25px;
+    /* border: 1px solid blue; */
+    text-align: right;
+    color: #030303;
+}
+
+.import {
+    color: #f64b4b;
+}
+
+#main input {
+    padding: 0 15px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #444;
+}
+
+.heading input{
+    width: 907px;
+    /* border:1px solid black; */
+    /* background: url("../img/title_bg.png") no-repeat -10px center; */
+    background: url("../img/title_click_bg.png") no-repeat 0 center;
+}
+
+.min-text input {
+    width: 243px;
+    background: url("../img/time_click_pic.png") no-repeat left center;
+    /* background: url("../img/time_pic.png") no-repeat left center; */
+    /* border: 1px solid green; */
+}
+
+.content {
+    position: relative;
+}
+
+.content .caption {
+    position: absolute;
+    top: 10px;
+}
+
+.content textarea {
+    margin-left: 116px;
+    padding: 15px 15px;
+    width: 910px;
+    height: 245px;
+    /* border: 1px solid red; */
+    background: url("../img/content_bg.png") no-repeat left center;
+    font-size: 16px;
+    color: #444;
+}
+
+#main button {
+    margin-left: 116px;
+    width: 128px;
+    height: 32px;
+    border: 1px solid black;
+    background: url("../img/send_button.png") no-repeat left top;
+}
+
+.vb {
+    visibility: hidden;
+}

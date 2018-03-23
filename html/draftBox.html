@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>学院管理端</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/draftBox.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="head">
+            <h1 class="title"><span class="zero-one">Zero-One</span><span class="title-text">学院管理端</span></h1>
+            <a class="login-out" href="#">退出</a>
+        </div>
+        <div class="sidebar">
+            <img class="siderbar-bg" src="../img/right_bg.png" />
+            <ul id="list">
+                <li class="new-push"><input id="newPush" type="button" value="新建推送" /></li>
+                <li class="all-push"><a href="#">全部推送</a></li>
+                <li class="drafts"><a href="#">草稿箱</a></li>
+            </ul>
+            <div class="click-home" id="bottom">
+                <p class="bottom-zero">Zero-One</p><p class="bottom-text">为梦重新启程</p>
+            </div>
+        </div>
+        <!-- <div class="center">
+            <img class="center-bg" src="../img/home_bg.jpg" />
+            <div class="dn" id="cover"></div>
+        </div> -->
+        <div id="main">
+            <div class="heading item">
+                <span class="caption">
+                    <span class="import">*</span><span>标题：</span>
+                </span>
+                <input type="text">
+            </div>
+            <div class="startTime min-text item">
+                <span class="caption">
+                    <span class="import">*</span><span>开始时间：</span>
+                </span>
+                <input type="text">
+            </div>
+            <div class="endTime min-text item">
+                <span class="caption">
+                    <span class="import">*</span><span>结束时间：</span>
+                </span>
+                <input type="text">
+            </div>
+            <div class="port min-text item">
+                <span class="caption">
+                    <span class="vb">*</span><span>活动地点：</span>
+                </span>
+                <input type="text">
+                <span>(选填)</span>
+            </div>
+            <div class="content item">
+                <span class="caption">
+                    <span class="import">*</span><span>推送内容：</span>
+                </span>
+                <textarea></textarea>
+            </div>
+            <span class="sendStu">推送给所有学生</span>
+            <span class="add">添加到所有学生的日程中</span>
+            <button class="send">发送</button>
+            <button class="save">存草稿</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/home.js"></script>
+</body>
+</html>
