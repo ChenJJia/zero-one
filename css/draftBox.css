@@ -1,11 +1,22 @@
+span {
+    display: inline-block;
+}
+
 #main {
-    margin: 100px 18%;
+    margin-left: 15.2%;
     width: 100%;
-    /* height: 500px; */
+    height: 100%;
     border: 1px solid black;
     text-align: left;
     font-size: 14px;
     color: #555;
+    /* background: url("../img/all_edit_pic.png") no-repeat; */
+}
+
+.main-bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
 }
 
 .item {
@@ -18,7 +29,6 @@
 }
 
 #main .caption {
-    display: inline-block;
     width: 110px;
     height: 25px;
     /* border: 1px solid blue; */
@@ -46,10 +56,27 @@
 }
 
 .min-text input {
-    width: 243px;
+    width: 242px;
     background: url("../img/time_click_pic.png") no-repeat left center;
     /* background: url("../img/time_pic.png") no-repeat left center; */
     /* border: 1px solid green; */
+}
+
+.time-icon {
+    width: 25px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.calendar {
+    margin-left: -53px;
+    /* border: 1px solid black; */
+    background: url("../img/calendar_icon.png") no-repeat center center;
+}
+
+.down {
+    /* border: 1px solid red; */
+    background: url("../img/arrow_icon.png") no-repeat center center;
 }
 
 .content {
@@ -62,7 +89,7 @@
 }
 
 .content textarea {
-    margin-left: 116px;
+    /* margin-left: 116px; */
     padding: 15px 15px;
     width: 910px;
     height: 245px;
@@ -73,11 +100,65 @@
 }
 
 #main button {
-    margin-left: 116px;
+    /* margin-left: 116px; */
+    /* border: 1px solid black; */
+    background: url("../img/send_button.png") no-repeat left top;
+}
+
+.bottom-block {
     width: 128px;
     height: 32px;
-    border: 1px solid black;
-    background: url("../img/send_button.png") no-repeat left top;
+    line-height: 32px;
+    font-size:14px;
+    color: #fff;
+}
+
+.m-l-116 {
+    margin-left: 116px;
+}
+
+.sele {
+    margin: 20px 0;
+    /* border:1px solid black; */
+    color: #030303;
+    font-size: 14px;
+}
+
+.sele div {
+    display: inline-block;
+    /* border:1px solid red; */
+    height: 30px;
+    /* line-height: 20px; */
+    /* width: 128px; */
+}
+
+.sele span {
+    margin-right: 5px;
+    width: 20px;
+    height: 100%;
+    /* border: 1px solid green; */
+    background: url("../img/confirm_button.png") no-repeat left center;
+    /* background: url("../img/confirm_click_button.png") no-repeat left center; */
+    vertical-align: middle;
+}
+
+.sendStu {
+    width: 128px;
+}
+
+.succeed {
+    text-align: center;
+    background: url("../img/big_remind_pic.png") no-repeat;
+}
+
+.succeed-icon {
+    /* border:1px solid red; */
+    width: 25px;
+    background: url("../img/yes_icon.png") no-repeat center;
+}
+
+.cp {
+    cursor: pointer;
 }
 
 .vb {
